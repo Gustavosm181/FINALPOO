@@ -1,5 +1,5 @@
 import json
-from typing import List #que import é esse
+from typing import List 
 from produto import Produto
 from utils import salvar_json, carregar_json
 class Dono:
@@ -22,6 +22,6 @@ class Dono:
     def salvar_produto(self):
         salvar_json(self.caminho, [p.to_dict() for p in self.produtos])
 
-    def carregar_produtos(self) -> list[Produto]: # oq é essa seta
+    def carregar_produtos(self) -> list[Produto]: 
         dados = carregar_json(self.caminho)
         return [Produto.from_dict(p) for p in dados]
