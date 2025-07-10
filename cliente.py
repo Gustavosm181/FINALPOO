@@ -10,7 +10,7 @@ class Cliente:
 
     def adicionar_ao_carrinho(self, produto, quantidade):
         if produto.estoque >= quantidade:
-            self._carrinho.append((produto, quantidade))  # agora é uma tupla
+            self._carrinho.append((produto, quantidade))  
             produto.estoque -= quantidade
         else:
             print("Produto em falta :(")
