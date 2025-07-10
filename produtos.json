@@ -1,0 +1,17 @@
+[
+    {
+        "nome": "Maçã",
+        "preco": 2.5,
+        "estoque": 0
+    },
+    {
+        "nome": "Banana",
+        "preco": 1.75,
+        "estoque": 1
+    },
+    {
+        "nome": "carne",
+        "preco": 50.0,
+        "estoque": 5
+    }
+]
